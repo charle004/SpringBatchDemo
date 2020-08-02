@@ -1,4 +1,4 @@
-package cn.cy.springbatch.tools;
+package cn.cy.springbatch.domain;
 
 public class PersonBean {
 
@@ -32,6 +32,6 @@ public class PersonBean {
 
     @Override
     public String toString() {
-        return id + ","+name+","+birthday;
+        return id + ";"+name+";"+birthday;
     }
 }

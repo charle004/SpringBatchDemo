@@ -1,4 +1,4 @@
-package cn.cy.springbatch.config.p10;
+package cn.cy.springbatch.domain;
 
 
 public class User {

@@ -1,6 +1,8 @@
 package cn.cy.springbatch.tools;
 
 
+import cn.cy.springbatch.domain.PersonBean;
+
 import java.io.File;
 import java.io.PrintWriter;
 import java.text.ParseException;

@@ -1,5 +1,6 @@
 package cn.cy.springbatch.config.p10;
 
+import cn.cy.springbatch.domain.User;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.stereotype.Component;
 

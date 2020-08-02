@@ -1,6 +1,6 @@
 package cn.cy.springbatch.config.p11;
 
-import cn.cy.springbatch.tools.PersonBean;
+import cn.cy.springbatch.domain.PersonBean;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.stereotype.Component;
 
