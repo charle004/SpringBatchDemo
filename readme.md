@@ -14,6 +14,7 @@
 12. p12 利用**MultiResourceItemReader**对象读取多个文本文件
 13. p13 创建实现了**ItemStreamReader**接口的ItemReader对象，处理读取时的异常，该接口的方法执行时机见resource目录下的示意图
 14. p14 ItemWriter概述,ItemWriter在输出时是一批一批的输出的（每批的大小即chunk指定的大小）代码省略，上述包中已经涉及
-15. p15 将读取的数据输出到数据库中
+15. p15 使用**JdbcBatchItemWriter**对象将读取的数据输出到数据库中
+16. p16 使用**FlatFileItemWriter**对象实现将读取的数据写出到文件中
 
 
