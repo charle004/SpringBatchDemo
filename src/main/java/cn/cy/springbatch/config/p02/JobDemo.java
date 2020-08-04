@@ -38,6 +38,8 @@ public class JobDemo {
                 .on("COMPLETED").to(step02())
                 .from(step02()).on("COMPLETED").to(step03())
                 .from(step03()).end()
+                //该job永远不会重启，只会执行一次
+//                .preventRestart()
                 .build();
     }
 

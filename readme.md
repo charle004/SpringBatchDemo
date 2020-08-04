@@ -16,5 +16,7 @@
 14. p14 ItemWriter概述,ItemWriter在输出时是一批一批的输出的（每批的大小即chunk指定的大小）代码省略，上述包中已经涉及
 15. p15 使用**JdbcBatchItemWriter**对象将读取的数据输出到数据库中
 16. p16 使用**FlatFileItemWriter**对象实现将读取的数据写出到文件中
+17. p17 使用**CompositeItemWriter**对实现多文件的写出
+18. p18 使用**ClassifierCompositeItemWriter**对象实现不同对象写出不同的文件
 
 
