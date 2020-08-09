@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Job测试</title>
+    <script src="js/jquery-3.2.1/jquery-3.2.1.js"></script>
+</head>
+<body>
+    <input id="input"/>
+    <button id="btn">运行Job</button>
+</body>
+</html>
+<script>
+    $("#btn").click(function () {
+
+        let val = $("#input").val();
+        let url = "/job/test/" + val;
+        $.ajax({
+            url: url,
+            success:function (res) {
+                alert(res);
+            }
+        })
+
+    })
+
+</script>

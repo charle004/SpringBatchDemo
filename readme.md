@@ -18,5 +18,10 @@
 16. p16 使用**FlatFileItemWriter**对象实现将读取的数据写出到文件中
 17. p17 使用**CompositeItemWriter**对实现多文件的写出
 18. p18 使用**ClassifierCompositeItemWriter**对象实现不同对象写出不同的文件
-
-
+19. p19 使用**ItemProcessor**在数据读取之后写出之前进行相应的处理
+20. p20 使用**CompositeItemProcessor**对象 处理多个Processor的情况
+21. p21 异常处理概述 ...
+22. p22 Step发生异常时自动重启**Retry** Step 从上次执行执行的失败处重启
+23. p23 Step发生异常时**Skip**跳过该异常，即跳过一个Item，执行后面的数据处理
+24. p24 实现**SkipListener**接口，记录被Skip的item
+25. p26 使用**JobLauncher**实现Job的启动以及传参
